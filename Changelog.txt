@@ -1,3 +1,17 @@
+Version Alpha 0.0.2 (24/03/2022 13h51):
+  # Added:
+    - index.html fonctionnel ;
+    - page1.html presque terminée ;
+  # To-do:
+    - Programmer page2.html ;
+    - Ajouter target="_blank" aux liens du tableau de page1.html ;
+    - Remplacer les textes de calibrage par les textes finaux ;
+    - Créer le pdf indiquant qu'un fichier est indisponible ;
+  # Fixed
+    - Lien menant vers le projet github au lieu du site web dans la barre de pied de page ;
+
+---------------
+
 Version Alpha 0.0.1 (24/03/2022 13h42):
   # Added:
     - index.html fonctionnel ;
