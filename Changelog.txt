@@ -7,6 +7,7 @@ Version Alpha 0.0.2 (24/03/2022 13h51):
     - Ajouter target="_blank" aux liens du tableau de page1.html ;
     - Remplacer les textes de calibrage par les textes finaux ;
     - Créer le pdf indiquant qu'un fichier est indisponible ;
+    - Remplacer les images du sites par les images finales ;
   # Fixed
     - Lien menant vers le projet github au lieu du site web dans la barre de pied de page ;
 
