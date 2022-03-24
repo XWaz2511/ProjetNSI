@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@keyframes blink {
+	from {
+		opacity: 100%;
+	} to {
+		opacity: 0%;
+	}
+}
+
+html {
+	width: 99.5vw;
+	margin: 0 auto 0 auto;
+}
+
+body {
+	font-family: Ubuntu;
+	width: 99.5vw;
+	margin: 0 auto 0 auto;
+	overflow-x: hidden;
+	background-image: url("./background.png");
+	background-size: cover;
+	background-position-x: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-blend-mode: darken;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.headerScreen {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#headerContentContainer {
+	color: whitesmoke;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
+.navBarCase {
+	height: 0;
+	width: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition-property: font-size, width, height, color, border-bottom;
+	transition-duration: 0.5s;
+	font-weight: bold;
+	font-size: 0;
+	border-bottom: 0;
+}
+
+.navBarIcon {
+	height: 4vh;
+	margin: 1vh;
+	transition-property: transform;
+	transition-duration: 0.5s;
+}
+
+.navBarCase:hover {
+	color: whitesmoke;
+}
+
+.title {
+	margin-bottom: 5vh;
+}
+
+.title h1, .title h2 {
+	font-size: 5.5vh;
+	font-weight: bolder;
+}
+
+.title h2 {
+	font-size: 4.5vh;
+	margin-bottom: 3vh;
+	font-weight: bolder;
+}
+
+.credits {
+	font-size: 2vh;
+}
+
+.blinkingCursor {
+	animation: blink 0.75s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.screen {
+	color: whitesmoke;
+	min-height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	margin: 5vh 0 5vh 0;
+}
+
+.screen div {
+	margin: 0 auto 0 auto;
+}
+
+.contentText {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1.5vw 0 1.5vw;
+}
+
+.screen img {
+	width: 45vw;
+	max-width: 45vw;
+	max-height: 50vh;
+	margin: 0 5vw 0 0;
+}
+
+.contentText p {
+	display: inline-block;
+	font-size: 1.75vh;
+	line-height: 2.75vh;
+}
+
+.footerBar {
+	height: 18vh;
+	background-color: rgba(255, 255, 255, 0.5);
+	overflow: hidden;
+	padding: 1vh 1vw 1vh 1vw;
+	font-size: 1.5vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.footerBar a {
+	transition-property: color;
+	transition-duration: 0.5s;
+}
+
+.footerBar a:hover {
+	color: whitesmoke;
+}
+
+.footerBarUpperPart {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.footerBarUpperPartCase {
+	width: 25vw;
+}
+
+table {
+	width: 95vw;
+}
+
+td, th {
+	text-align: center;
+	border: 1px solid whitesmoke;
+	width: 25vw;
+	padding: 3vh 0 3vh 0;
+	line-height: 2.5vh;
+}
+
+th {
+	font-weight: bold;
+	font-style: italic;
+}
+
+td a {
+	text-decoration: none;
+	color: white;
+	transition-property: font-weight;
+	transition-duration: 0.25s;
+}
+
+td a:hover {
+	font-weight: bold;
+}
