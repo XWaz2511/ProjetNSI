@@ -1,3 +1,8 @@
+Version Release 1.0.0 (28/03/2022 23h20):
+  # Après la réalisation de plusieurs tests et vérifications, il a été conclu que le site ne présentait plus de bug ou problème empêchant sa mise au stade Release ;
+
+---------------
+
 Version Bêta 0.1.0 (28/03/2022 23h13):
   # Added:
     - Retour à la ligne dans la barre de pied de page pour une meilleure lisibilité ;
