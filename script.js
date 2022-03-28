@@ -1,5 +1,6 @@
 if (document.querySelector("head > title").innerHTML === "La NSI En 1ère") {
 	alert("Bonjour cher visiteur, ce site a été crée par Sasha Guérin-Loison à l'occasion d'un projet pour les vacances de février.");
+	alert("!!! ATTENTION !!! CE SITE WEB A ÉTÉ PRÉVU POUR FONCTIONNER EN MODE PAYSAGE UNIQUEMENT !!!");
 
 	var divs = [document.querySelector("#mainTitle h1"), document.querySelector(".credits")];
 	var strings = ["Les Cours de NSI en 1ère", "Par Sasha Guérin-Loison"];

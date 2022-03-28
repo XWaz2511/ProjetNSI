@@ -68,6 +68,12 @@ a {
 	border-bottom: 0;
 }
 
+.navBarCase p {
+	text-align: center;
+	max-width: 90%;
+	word-wrap: normal;
+}
+
 .navBarIcon {
 	height: 4vh;
 	margin: 1vh;
@@ -110,7 +116,7 @@ a {
 	width: 100vw;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	flex-direction: column;
 	margin: 5vh 0 5vh 0;
 }
@@ -125,12 +131,12 @@ a {
 	align-items: center;
 	justify-content: space-between;
 	padding: 0 1.5vw 0 1.5vw;
+	max-width: 85vw;
 }
 
 .screen img {
-	width: 45vw;
 	max-width: 45vw;
-	max-height: 50vh;
+	max-height: 25vh;
 	margin: 0 5vw 0 0;
 }
 
@@ -150,6 +156,7 @@ a {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
+	width: 100vw;
 }
 
 .footerBar a {
