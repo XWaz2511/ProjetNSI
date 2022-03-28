@@ -1,3 +1,26 @@
+Version Bêta 0.1.0 (28/03/2022 23h13):
+  # Added:
+    - Retour à la ligne dans la barre de pied de page pour une meilleure lisibilité ;
+    - Liens dans le tableau de la page 1 mis à jour ;
+    - Remplacement des textes de calibrage par les textes finaux ;
+    - Remplacement des images de balisage par les images d'illustration finales ;
+  # Fixed
+    - Liens de la barre de navigation menant aux bonnes pages et aux bon ancres ;
+    - Titres des parties dans la barre de navigation corrigés ;
+    - Contenu de la balise <title></title> de page2.html corrigé pour correspondre à la page et son contenu ;
+    - IDs de divs corrigés pour la page1.html ;
+    - Ajout d'une largeur maximale au texte d'une navBarCase ;
+    - Liens de la barre de pied de page menant aux bonnes pages et aux bon ancres ;
+    - Titres des parties dans la barre de pied de page corrigés ;
+    - ID de classDescriptionScreenContainer corrigé ;
+    - Règlement de la largeur maximale des textes ;
+    - Passage de space-around à space-evenly pour le flexbox des .screen ;
+    - Rajout de credits en bas des titres ;
+    - Largeur de la barre de pied de page à 100vw ;
+    - Ajout de target="_blank" aux liens le nécessitant ;
+
+---------------
+
 Version Alpha 0.0.3 (24/03/2022 14h07):
   # Added:
     - unavailable.pdf crée ;
