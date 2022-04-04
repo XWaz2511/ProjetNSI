@@ -1,3 +1,11 @@
+Version Release 1.0.1 (04/04/2022 18h32):
+  # Added:
+    - Ajout du TP sur les réseaux ;
+    - Ajout d'une vidéo présentant la matière sur page2.html ;
+    - Mise à jour de la navbar : ajout d'un lien pour mener à la vidéo de page2.html ;
+
+---------------
+
 Version Release 1.0.0 (28/03/2022 23h20):
   # Après la réalisation de plusieurs tests et vérifications, il a été conclu que le site ne présentait plus de bug ou problème empêchant sa mise au stade Release ;
 
