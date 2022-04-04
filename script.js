@@ -57,7 +57,7 @@ navBarIcon.addEventListener("click", function(){
 	} else {
 		navBarIcon.style.transform = "rotate(90deg)";
 		for (let navBarCase of navBarCases) {
-			navBarCase.style.height = "18.7vh";
+			navBarCase.style.height = "15.6vh";
 			navBarCase.style.width = "15vw";
 			navBarCase.style.fontSize = "2vh";
 			navBarCase.style.borderBottom = "1px solid black";
