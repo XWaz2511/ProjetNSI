@@ -211,8 +211,8 @@ td a:hover {
 }
 
 .videoContainer {
-	max-width: 75vw;
-	max-height: 75vh;
+	max-width: 60vw;
+	max-height: 50vh;
 }
 
 .videoContainer video {
